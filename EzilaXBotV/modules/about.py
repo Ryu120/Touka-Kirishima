@@ -9,6 +9,6 @@ Powerful Abilities
 
 • Youtube Downloader 🎵
 
-Developer [Damantha🇱🇰](https://t.me/Darkridersslk)
+Developer [Sadew🇱🇰](https://t.me/Darkridersslk)
 """
 __mod_name__ = "About"
