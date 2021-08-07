@@ -56,15 +56,15 @@ from AnkiVector import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AnkiVector.modules import ALL_MODULES
-from AnkiVector.modules.helper_funcs.alternate import typing_action
-from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
-from AnkiVector.modules.helper_funcs.misc import paginate_modules
-from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
+from EzilaXBotV.modules import ALL_MODULES
+from EzilaXBotV.modules.helper_funcs.alternate import typing_action
+from EzilaXBotV.modules.helper_funcs.chat_status import is_user_admin
+from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
+from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓷𝓴𝓲 𝓥𝓮𝓬𝓽𝓸𝓻
-I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
+Hello there, I'm 𝐸𝓏𝒾𝓁𝒶𝒳
+I'm a Powerful group manager bot With Cool Modules. Made by [Sadew Jayasekara• 🇱🇰](t.me/Darkridersslk)
 Hit /help to find my list of available commands
  
 """
@@ -72,32 +72,32 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+            text="📢Updates Channel", url="https://t.me/Ezila_Updates"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+            text="👥 Support Group", url="https://t.me/Ezila_Support"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            text="📜Source", url="Github.com/Sadew451/EzilaXBot-V2"
+        ),
+        InlineKeyboardButton(
+            text="❔ Help", url="http://t.me/EzilaXBot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add EzilaX to your group ➕",
+            url="t.me/EzilaXBot?startgroup=true",
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
+EZILAX_IMG = "https://telegra.ph/file/584b1539d736325fab377.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/584b1539d736325fab377.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Sadew Jayasekara](t.me/Darkridersslk)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -129,7 +129,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AnkiVector.modules." + module_name)
+    imported_module = importlib.import_module("EzilaXBotV.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
         else:
             update.effective_user.first_name
             update.effective_message.reply_photo(
-                ANKIVECTOR_IMG,
+                EZILAX_IMG,
                 caption=PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
@@ -373,8 +373,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by EzilaX Updates.* "
+            f"\n\n Join [EzilaXUpdates](https://t.me/Ezila_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -407,7 +407,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [EzilaX Support](https://t.me/Ezila_Support).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -426,8 +426,8 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
+            f"\n\nBased on [SDBOTsInifinity](https://t.me/SDBOTs_Inifinity)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was written by Sadew Jayasekara"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -489,7 +489,7 @@ def AnkiVector_about_callback(update, context):
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of EzilaXBot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
