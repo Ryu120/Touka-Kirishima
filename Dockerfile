@@ -77,5 +77,5 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","AnkiVector"]
+CMD ["python3","-m","EzilaXBotV"]
 
