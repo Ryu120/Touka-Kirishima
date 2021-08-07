@@ -23,7 +23,7 @@ if is_module_loaded(FILENAME):
 
     from telegram.ext.dispatcher import run_async
 
-    from AnkiVector.modules.helper_funcs.chat_status import (
+    from EzilaXBotV.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
