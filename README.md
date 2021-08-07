@@ -1,4 +1,4 @@
-# EzilaX Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/EzilaXBot-V2?label=Repo%20Size)
+# EzilaX Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/EzilaXBotV?label=Repo%20Size)
 <p align="leaft">
   <img src="https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg" width='600"'>
 </p>
