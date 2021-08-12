@@ -22,6 +22,9 @@
 
 > ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
 
+# 🏃‍♂️ Easy Deploy 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadew451/EzilaXBot-v2.git)
 
 
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
