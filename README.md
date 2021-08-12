@@ -46,7 +46,6 @@ $ python3 -m EzilaXBot-v2
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] APP_HASH :   You can get this value from https://my.telegram.org
     [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
-    [-] MONGO_URI : Your Mongo DB DataBase Url. .
     [-] TOKEN: Get from botfarther
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
