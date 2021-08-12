@@ -1,22 +1,26 @@
-# EzilaX Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Sadew451/EzilaXBot-V2?label=Repo%20Size)
-<p align="leaft">
-  <img src="https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg" width='600"'>
+<h1 align="center"><b>❤️ EzilaX v2  ❤️</b></h1>
+
+## Unmaintained. The new repo of [@EzilaXBot](https://t.me/EzilaXBot) is Public. 
+
+(It is no longer based on this source code. The completely rewritten bot available now on telegram)
+
+<h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
+<p align='center'>
+  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
+  <a href="https://github.com/Sadew451/EzilaXBot-v2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
-# 2 Branches available. this is main brach. swith advaced fr all fetures
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/EzilaXBot-V2.git)
 
 
-### Video Tutorial:
-Complete guide on deploying @EzilaXBot's clone on Heroku.
+<p align="center"><a href="https://t.me/Ezila_Support"><img src="https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg" width="400"></a></p>
+<p align="center">
+    <a href="https://github.com/Sadew451/EzilaXBot-v2"> <img src="https://img.shields.io/github/repo-size/sadew451/ezilaxbot-v2?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/sadew451/EzilaXBot-v2/commits/sadew451"> <img src="https://img.shields.io/github/last-commit/sadew451/ezilaxbot-v2?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/sadew451/ezilaxbot-v2/issues"> <img src="https://img.shields.io/github/issues/sadew451/ezilaxbot-v2?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/sadew451/ezilaxbot-v2/network/members"> <img src="https://img.shields.io/github/forks/sadew451/ezilaxbot-v2?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+</p>
 
-
-☆ Video by [Sadew Jayasekara](https://www.youtube.com/channel/UCdSBUUQ1v0_IIElBR_1B72w) ☆
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/fcXPoq4FcWw)
-
-## New version Avaiilable on Telegram as [EzilaXBot](https://t.me/EzilaXBot)
-## EzilaXBot is the latest
-
+> ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
 
 
 
