@@ -78,4 +78,8 @@ The EzilaX bot(advanced)
 
 ## Special Credits
 - [Sadew](https://github.com/Sadew451) - A Co-Developer of Project
-- [Damantha](https://github.com/Damantha126) 
+- [Damantha](https://github.com/Damantha126) Damantha
+- [InukaAsith](https://github.com/inukaasith) 
+- [Janindu](https://github.com/imjanindu) Janindu
+- [DaisyXBot](https://t.me/DaisyXBot) Inukaasith
+- [AnkiVector](https://t.me/TheAnkiVector) = Damantha Jasingha AnkiVector DEV
