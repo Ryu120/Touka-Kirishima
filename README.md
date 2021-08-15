@@ -20,7 +20,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone who starred EzilaX, That is the greatest pleasure we have !
 
 # 🏃‍♂️ Easy Deploy 
 
@@ -78,7 +78,7 @@ The EzilaX bot(advanced)
 
 ## Special Credits
 - [Sadew](https://github.com/Sadew451) - A Co-Developer of Project
-- [Damantha](https://github.com/Damantha126) Damantha
+- [Damantha](https://github.com/Damantha126) Damantha Jasingha
 - [InukaAsith](https://github.com/inukaasith) 
 - [Janindu](https://github.com/imjanindu) Janindu
 - [DaisyXBot](https://t.me/DaisyXBot) Inukaasith
