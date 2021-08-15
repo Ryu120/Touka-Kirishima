@@ -1,4 +1,4 @@
-<h1 align="center"><b>❤️ EzilaX v2  ❤️</b></h1>
+<h1 align="center"><b>❤️ EzilaX v1  ❤️</b></h1>
 
 ## Unmaintained. The new repo of [@EzilaXBot](https://t.me/EzilaXBot) is Public. 
 
