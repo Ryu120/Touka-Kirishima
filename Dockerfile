@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/AnkiVector
-RUN git clone -b shiken https://github.com/Damantha126/The-Anki-Vector /root/AnkiVector
-WORKDIR /root/AnkiVector
+# Copy Python Requirements to /root/EzilaX
+RUN git clone -b shiken https://github.com/Sadew451/EzilaX /root/EzilaX
+WORKDIR /root/EzilaX
 
-#Copy config file to /root/AnkiVector/AnkiVector
-COPY ./AnkiVector/sample_config.py ./AnkiVector/config.py* /root/AnkiVector/AnkiVector/
+#Copy config file to /root/EzilaX/EzilaX
+COPY ./EzilaX/sample_config.py ./EzilaX/config.py* /root/EzilaX/EzilaX/
 
 ENV PATH="/home/bot/bin:$PATH"
 
