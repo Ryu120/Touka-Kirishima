@@ -72,10 +72,10 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/Ezila_Updates"
+            text="EzilaX News 🙋‍♀️", url="https://t.me/Ezila_Updates"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/Ezila_Support"
+            text="Support Group 💬", url="https://t.me/Ezila_Support"
         ),
     ],
     [
@@ -83,21 +83,21 @@ buttons = [
             text="📜Source", url="Github.com/Sadew451/EzilaXBot-V2"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/EzilaXBot?start=help"
+            text="Command Help ❓", url="http://t.me/EzilaXBot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add EzilaX to your group ➕",
+            text="➕ Add Me to your group ➕",
             url="t.me/EzilaXBot?startgroup=true",
         ),
     ],
 ]
 
-EZILAX_IMG = "https://telegra.ph/file/584b1539d736325fab377.jpg"
+EZILAX_IMG = ""
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/584b1539d736325fab377.jpg)
+*Main Commands :* [🤖]()
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
