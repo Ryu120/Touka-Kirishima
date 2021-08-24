@@ -82,4 +82,4 @@ The EzilaX bot(advanced)
 - [InukaAsith](https://github.com/inukaasith) 
 - [Janindu](https://github.com/imjanindu) Janindu
 - [DaisyXBot](https://t.me/DaisyXBot) Inukaasith
-- [AnkiVector](https://t.me/TheAnkiVector) = Damantha Jasingha AnkiVector DEV
+- [AnkiVector](https://t.me/TheAnkiVector) = Damantha Jasingha
