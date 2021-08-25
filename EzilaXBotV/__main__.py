@@ -63,32 +63,32 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝐸𝓏𝒾𝓁𝒶𝒳
-I'm a Powerful group manager bot With Cool Modules. Made by [Sadew Jayasekara• 🇱🇰](t.me/Darkridersslk)
-Hit /help to find my list of available commands
+𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 𝐸𝓏𝒾𝓁𝒶𝒳
+𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗿 𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ [TEAMEZILAX](t.me/TeamEzilaX)
+𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙋‍♂️
  
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="EzilaX News 🙋‍♀️", url="https://t.me/Ezila_Updates"
+            text="𝙴𝚣𝚒𝚕𝚊𝚇 𝙽𝚎𝚠𝚜 🙋‍♂️♀️", url="https://t.me/Ezila_Updates"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/Ezila_Support"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📜Source", url="Github.com/Sadew451/EzilaXBot-V2"
-        ),
-        InlineKeyboardButton(
-            text="Command Help ❓", url="http://t.me/EzilaXBot?start=help"
+            text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 💬", url="https://t.me/Ezila_Support"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Me to your group ➕",
+            text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒️", url="Github.com/Sadew451/EzilaXBot-V2"
+        ),
+        InlineKeyboardButton(
+            text="𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝙷𝚎𝚕𝚙 ❓", url="http://t.me/EzilaXBot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 ➕",
             url="t.me/EzilaXBot?startgroup=true",
         ),
     ],
