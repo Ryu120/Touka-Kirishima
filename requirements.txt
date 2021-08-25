@@ -61,3 +61,6 @@ wget
 youtube_search
 envparse
 loguru
+opencv
+python
+headless
