@@ -20,6 +20,8 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+![GitHub Contributors Image](https://contrib.rocks/image?repo=Sadew451/EzilaX)
+
 > ⭐️ Thanks to everyone who starred EzilaX, That is the greatest pleasure we have !
 
 # 🏃‍♂️ Easy Deploy 
