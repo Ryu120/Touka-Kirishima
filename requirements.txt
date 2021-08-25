@@ -61,5 +61,4 @@ wget
 youtube_search
 envparse
 loguru
-python
 headless
