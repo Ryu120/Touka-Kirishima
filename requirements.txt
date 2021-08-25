@@ -14,7 +14,7 @@ geopy
 nltk
 psutil
 aiohttp>=2.2.5
-Pillow>=4.2.0
+
 CurrencyConverter
 googletrans==3.1.0a0
 jikanpy
@@ -59,6 +59,10 @@ aiofiles
 requests
 wget
 youtube_search
+#ImageEditor
+glitch_this
+NumPy
+opencv-python-headless
+Pillow
 envparse
 loguru
-
