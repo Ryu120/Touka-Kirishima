@@ -93,4 +93,4 @@ The EzilaX bot(advanced)
 - [Thenula66](https://github.com/thenula63728292) - Dev
 - [King Amda](https://github.com/King-Amda) - Dev
 
-                                         ❤️ THANKS FOR ALL  [@EZILAXBOT] USERS & CONTRIBUTORS 🙋‍♂️
+❤️ THANKS FOR ALL  [@EZILAXBOT](https://T.e/EzilaXBot) USERS & CONTRIBUTORS 🙋‍♂️
