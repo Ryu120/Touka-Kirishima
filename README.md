@@ -11,7 +11,7 @@
 </p>
 
 
-<p align="center"><a href="https://t.me/Ezila_Support"><img src="https://telegra.ph/file/8949212730146a1095401.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Ezila_Support"><img src="https://telegra.ph/file/0185237db647fd0cf294f.png" width="400"></a></p>
 <p align="center">
     <a href="https://github.com/Sadew451/EzilaXBot-v2"> <img src="https://img.shields.io/github/repo-size/sadew451/ezilaxbot-v2?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/EzilaXBot-v2/commits/sadew451"> <img src="https://img.shields.io/github/last-commit/sadew451/ezilaxbot-v2?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
