@@ -71,14 +71,8 @@ The Advanced Branch (For PRO's)
 
 The EzilaX bot(advanced)
 
-### Credits ❤
-<details><summary>All Credits Here</summary>
-<p>
-
-**[Inuka Asith](https://github.com/inukaasith)** ▪ **[Prabasha](https://github.com/prabhasha-p/HexzyBot)** ▪ **[Im Janindu](https://github.com/imjanindu)** ▪ **[Devil](https://github.com/lucifeermorningstar)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)** ▪ **[Anime Kaizoku](https://github.com/AnimeKaizoku)** ▪ **[thehamkercat](https://github.com/thehamkercat/)**
-</details>
-
 ## Special Credits
+
 - **[Inuka Asith](https://github.com/inukaasith)**
 - **[Prabasha](https://github.com/prabhasha-p/)**
 - **[ImJanindu](https://github.com/imjanindu)** 
@@ -99,4 +93,4 @@ The EzilaX bot(advanced)
 - [Thenula66](https://github.com/thenula63728292) - Dev
 - [King Amda](https://github.com/King-Amda) - Dev
 
-                                           THANKS FOR ALL 
+                                         ❤️ THANKS FOR ALL  [@EZILAXBOT] USERS & CONTRIBUTORS 🙋‍♂️
