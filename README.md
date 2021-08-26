@@ -85,7 +85,7 @@ The EzilaX bot(advanced)
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
 - **[Damantha Jayasingha](https://github.com/damantha126)**
 
-## Devs
+## Devs ⭐️
 
 - [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
