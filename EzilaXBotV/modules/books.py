@@ -25,7 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from EzilaXBotV.services.telethon import tbot
+from EzilaXBotV.telethon import tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
