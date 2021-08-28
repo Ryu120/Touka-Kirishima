@@ -63,8 +63,8 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 [𝗘𝘇𝗶𝗹𝗮𝗫](t.me/EzilaXBot)
-𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗿 𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ [TEAMEZILAX](t.me/TeamEzilaX)
+𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 @EzilaXBot
+𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗿 𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ @TeamEzilaX
 𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙋‍♂️
  
 """
@@ -72,7 +72,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙴𝚣𝚒𝚕𝚊𝚇 𝙽𝚎𝚠𝚜 🙋‍♂️♀️", url="https://t.me/Ezila_Updates"
+            text="𝙴𝚣𝚒𝚕𝚊𝚇 𝙽𝚎𝚠𝚜 🙋‍♂️", url="https://t.me/Ezila_Updates"
         ),
         InlineKeyboardButton(
             text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 💬", url="https://t.me/Ezila_Support"
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒️", url="Github.com/Sadew451/EzilaXBot-V2"
+            text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒", url="Github.com/Sadew451/EzilaXBot-V2"
         ),
         InlineKeyboardButton(
             text="𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝙷𝚎𝚕𝚙 ❓", url="http://t.me/EzilaXBot?start=help"
@@ -98,10 +98,10 @@ EZILAX_IMG = "https://telegra.ph/file/48a1645cc447a2ac1dae0.png"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖]()
-❤️/start: Starts me! You've probably already used this.
-❤️ /help: Click this, I'll let you know about myself!
-❤️ /donate: You can support my creater using this command.
-❤️ /settings: 
+✪ /start: Starts me! You've probably already used this.
+✪ /help: Click this, I'll let you know about myself!
+✪ /donate: You can support my creater using this command.
+✪ /settings: 
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
@@ -226,9 +226,8 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_user.first_name
-            update.effective_message.reply_photo(
-                EZILAX_IMG,
-                caption=PM_START_TEXT,
+            update.effective_message.reply_text(
+                PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
@@ -384,13 +383,13 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="🙋‍♀️ How To Use Me", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="🗒 Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
+                    [InlineKeyboardButton(text="Help ❔", callback_data="help_back")],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),
