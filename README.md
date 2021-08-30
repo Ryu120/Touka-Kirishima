@@ -86,7 +86,7 @@ The EzilaX bot(advanced)
 - **[Damantha Jayasingha](https://github.com/damantha126)**
 
 
-<a href="https://github.com/sadew451/EzilaX/graphs/contributors"><img src="https://opencollective.com/sadew451/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/sadew451/EzilaX/graphs/contributors"><img src="https://opencollective.com/sadew451/EzilaX/contributors.svg?width=890&button=false" /></a>
 
 
 ## Devs ⭐️
