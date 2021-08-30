@@ -85,10 +85,6 @@ The EzilaX bot(advanced)
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
 - **[Damantha Jayasingha](https://github.com/damantha126)**
 
-
-<a href="https://github.com/sadew451/EzilaX/graphs/contributors">
-
-
 ## Devs ⭐️
 
 - [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
