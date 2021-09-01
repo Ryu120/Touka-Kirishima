@@ -42,12 +42,24 @@
          "required": true,
          "value": ""
       
-       },
+      },
+    "HEROKU_APP_NAME": {
+      "description": "Your heroku app name (not compulsory)",
+      "value": "",
+      "required": false   
+      
+      },
     "REM_BG_API_KEY": {
       "description": "remove.bg api (no need)",
       "value": "",
       "required": false
       
+      },
+    "HEROKU_API_KEY": {
+      "description": "Your heroku api key (not compulsory)",
+      "value": "",
+      "required": false  
+    
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
