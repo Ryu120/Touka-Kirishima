@@ -67,6 +67,4 @@ Pillow
 envparse
 loguru
 heroku3
-gitpython
-motor
-python-dotenv
+
