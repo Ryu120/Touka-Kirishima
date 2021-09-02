@@ -68,3 +68,4 @@ envparse
 loguru
 heroku3
 gitpython
+tbot
