@@ -67,3 +67,4 @@ Pillow
 envparse
 loguru
 heroku3
+git
