@@ -22,7 +22,7 @@
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 
-> ⭐️ Thanks to everyone who starred EzilaX, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone who starred Nutsuki, That is the greatest pleasure we have !
 
 # 🏃‍♂️ Easy Deploy 
 
