@@ -1,15 +1,15 @@
 {
-      "name": "EzilaX",
+      "name": "Nutsuki",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/584b1539d736325fab377.jpg",
+      "logo": "https://telegra.ph/file/a6281ecaae26667a13716.png",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "EzilaXBot"
+         "TheNatsukiBot"
       ],   
-   "repository": "https://github.com/Sadew451/EzilaX",
+   "repository": "https://github.com/Sadew451/Nutsuki",
    "addons": [
       {
          "options": {
@@ -78,7 +78,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "Ezila_Updates"
+         "value": "Natsuki_Updates"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -197,8 +197,8 @@
       "anime",
       "group",
       "manager",
-      "EzilaX"
+      "Natsuki"
    ],
-   "name": "EzilaXBot",
-   "repository": "https://github.com/Sadew451/EzilaX"
+   "name": "Natsuki",
+   "repository": "https://github.com/Sadew451/Natsuki"
 }
