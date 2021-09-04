@@ -63,7 +63,7 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 @TheNutsukiBot
+👋 𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 @TheNatsukiBot
 𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗿 𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ @TeamNatsuki
 𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙋‍♂️
  
@@ -75,7 +75,7 @@ buttons = [
             text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NutsukiSupport_Official"
+            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
         ),
     ],
     [
@@ -83,7 +83,7 @@ buttons = [
             text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒", url="Github.com/Sadew451"
         ),
         InlineKeyboardButton(
-            text="Command Help ❓", url="http://t.me/TheNutsukiBot?start=help"
+            text="Command Help ❓", url="http://t.me/TheNatsukiBot?start=help"
         ),
     ],
     [
@@ -372,7 +372,7 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Nutsuki Updates.* "
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
             f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
@@ -406,7 +406,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Natsuki Support](https://t.me/NutsukiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Natsuki Support](https://t.me/NatsukiSupport_Official).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -483,7 +483,7 @@ def AnkiVector_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Natsuki Updates team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
