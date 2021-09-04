@@ -100,11 +100,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ❤️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @Ezila_Support, {e}')
+   await event.reply(f'Error Go to Help From  @NatsukiSupport_Official, {e}')
 
 @register(pattern="^/biglogo ?(.*)")
 async def lego(event):
@@ -137,11 +137,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ❤️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @Ezila_Support, {e}')
+   await event.reply(f'Error Go to Help From  @NatsukiSupport_Official, {e}')
 
 
 @register(pattern="^/rlogo ?(.*)")
@@ -175,11 +175,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="red", stroke_width=0, stroke_fill="red")
     fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ❤️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @Ezila_Support, {e}')
+   await event.reply(f'Error Go to Help From  @NatsukiSupport_Official, {e}')
 
 
 @register(pattern="^/pandalogo ?(.*)")
@@ -213,11 +213,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=0, stroke_fill="white")
     fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ❤️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @Ezila_Support, {e}')
+   await event.reply(f'Error Go to Help From  @NatsukiSupport_Official, {e}')
 
 
 file_help = os.path.basename(__file__)
@@ -226,7 +226,7 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
-@EzilaXBot
+@TheNatsukiBot
  ❍ /logo text :  Create your logo with your name
  ❍ /biglogo text :  Create your logo Bigger Than `logo`
  ❍ /rlogo text :  Create your logo with your name
