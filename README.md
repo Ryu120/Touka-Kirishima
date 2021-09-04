@@ -1,6 +1,6 @@
 <h1 align="center"><b>❤️ Nutsuki ❤️</b></h1>
 
-## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/@TheNatsukiBot) is Public. 
+## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukiBot) is Public. 
 
 (It is no longer based on this source code. The completely rewritten bot available now on telegram)
 
