@@ -13,7 +13,7 @@
 
 <p align="center"><a href="https://t.me/NutsukiSupport_Official"><img src="https://telegra.ph/file/a6281ecaae26667a13716.png" width="400"></a></p>
 <p align="center">
-    <a href="https://github.com/Sadew451/Natsuki"> <img src="https://img.shields.io/github/reposize/sadew451/Natsukiv2.2color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Sadew451/Natsuki"> <img src="https://img.shields.io/github/repo-size/sadew451/Natsukiv2.2color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki-v2.2/commits/sadew451"> <img src="https://img.shields.io/github/last-commit/sadew451/Natsuki-v2.2?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki-v2.2/issues"> <img src="https://img.shields.io/github/issues/sadew451/Natsuki-v2.2?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki-v2.2/network/members"> <img src="https://img.shields.io/github/forks/sadew451/Natsuki-v2.2?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
