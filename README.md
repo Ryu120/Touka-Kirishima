@@ -47,14 +47,13 @@ $ python3 -m Natsuki-v2.2
 [+] Make Sure You Add All These Mandatory Vars. 
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] APP_HASH :   You can get this value from https://my.telegram.org
-    [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
     [-] TOKEN: Get from botfarther
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
-[+] The EzilaX won't run without setting the mandatory vars.
+[+] The Natsuki won't run without setting the mandatory vars.
 ```
 
 
