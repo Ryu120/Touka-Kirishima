@@ -1,5 +1,6 @@
 
-
+from EzilaXBotV import MONGO_DB_URI
+from EzilaXBotV import telethn as tbot
 from pymongo import MongoClient
 import io
 import asyncio
@@ -14,8 +15,7 @@ from EzilaXBotV import TEMP_DOWNLOAD_DIRECTORY
 from EzilaXBotV.events import register
 
 
-from EzilaXBotV import MONGO_DB_URI
-from EzilaXBotV import telethn as tbot
+
 
 async def is_register_admin(chat, user):
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
