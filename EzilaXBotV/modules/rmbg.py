@@ -126,3 +126,8 @@ file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
+__mod_name__ = "Rmbg"
+
+__help__ = """
+ - /rmbg: Type in reply to a media to remove it's background
+"""
