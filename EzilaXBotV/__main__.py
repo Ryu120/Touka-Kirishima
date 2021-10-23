@@ -83,7 +83,7 @@ buttons = [
             text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Kaneki_Love_Touka"
         ),
         InlineKeyboardButton(
-            text="Command Help ❓", url="http://t.me/TheNatsukiBot?start=help"
+            text="Command Help ❓", url="http://t.me/Maki_ryu_bot?start=help"
         ),
     ],
     [
