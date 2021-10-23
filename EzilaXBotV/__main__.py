@@ -72,10 +72,10 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Touka News ", url="https://t.me/"
+            text=" ᴀɴɪᴍᴇ ᴄʜᴀᴛ", url="https://t.me/Otaku_zon"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/"
+            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Touka_kirishima_support"
         ),
     ],
     [
@@ -83,7 +83,7 @@ buttons = [
             text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Kaneki_Love_Touka"
         ),
         InlineKeyboardButton(
-            text="Command Help ❓", url="http://t.me/Maki_ryu_bot?start=help"
+            text="ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ ❓", url="http://t.me/Maki_ryu_bot?start=help"
         ),
     ],
     [
