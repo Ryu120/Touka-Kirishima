@@ -63,24 +63,24 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲, 𝗜'𝗺 @TheNatsukiBot
-𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗿 𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ @TeamNatsuki
-𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🙋‍♂️
+👋 𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲[👩‍💼](https://telegra.ph/file/5aaab21f4405592a34305.jpg) , 𝗜'𝗺 Touka
+𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 ghoul 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ @Kaneki_Love_Touka
+𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ⚡
  
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
+            text="Touka News ", url="https://t.me/"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
+            text="Support Group 💬", url="https://t.me/"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒", url="Github.com/Sadew451"
+            text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Kaneki_Love_Touka"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", url="http://t.me/TheNatsukiBot?start=help"
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Sadew Jayasekara](t.me/Darkridersslk)"""
+Support them  [Kaneki](t.me/Kaneki_Love_Touka)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
