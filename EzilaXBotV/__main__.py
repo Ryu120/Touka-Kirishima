@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm alive, want some coffee [❤](https://telegra.ph/file/2e799b4fe1b90a2f619a0.mp4) !\n<b>I am awake since:</b> <code>{}</code>".format(
+            "I'm alive, want some coffee ❤ https://telegra.ph/file/2e799b4fe1b90a2f619a0.mp4 !\n<b>I am awake since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
