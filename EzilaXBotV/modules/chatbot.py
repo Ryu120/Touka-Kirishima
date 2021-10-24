@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import GabiBraunRobot.modules.sql.chatbot_sql as sql
+import EzilaXBotV.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -15,10 +15,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from GabiBraunRobot.modules.helper_funcs.filters import CustomFilters
-from GabiBraunRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from GabiBraunRobot import dispatcher, updater, SUPPORT_CHAT
-from GabiBraunRobot.modules.log_channel import gloggable
+from EzilaXBotV.modules.helper_funcs.filters import CustomFilters
+from EzilaXBotV.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from EzilaXBotV import dispatcher, updater, SUPPORT_CHAT
+from EzilaXBotV.modules.log_channel import gloggable
 
 @run_async
 @user_admin_no_reply
@@ -139,7 +139,7 @@ def list_all_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 __help__ = """
-Chatbot utilizes the Kuki's api which allows Kuki to talk and provide a more interactive group chat experience.
+Chatbot utilizes the Kuki's api which allows Touka to talk and provide a more interactive group chat experience.
 
 *Admins only Commands*:
   ➢ `/Chatbot`*:* Shows chatbot control panel
