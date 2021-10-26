@@ -4,11 +4,11 @@ __help__ = """
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-4) If userbot joined enjoy music, If not add @EzilaXHelper to your group and retry
+4) If userbot joined enjoy music, If not add @Touka_vc_assistant to your group and retry
 
 * 🟡For Channel Music Play🟡 *
 
-1) Make @EzilaXMBot admin of your channel 
+1) Make ᴛᴏᴜᴋᴀ ᴋɪʀɪsʜɪᴍᴀ admin of your channel 
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group 
 
@@ -51,7 +51,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
-4) Add @EzilaXMBot to the channel as an admin.
+4) Add ᴛᴏᴜᴋᴀ ᴋɪʀɪsʜɪᴍᴀto the channel as an admin.
 5) Simply send commands in your group.
  
 * ⚫️More tools⚫️ *
@@ -59,12 +59,12 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @EzilaXHelper Userbot to your chat 
  
-* 🔷Assisten🔷 *
+* 🔷ᴀssɪsᴛᴀɴᴛ🔷 *
 
-@EzilaXHelper
+@Touka_vc_assistant
 
 * 🔸Bot🔸 *
 
-@EzilaXMBot
+@Maki_ryu_bot
 """
 __mod_name__ = "Music Play"
