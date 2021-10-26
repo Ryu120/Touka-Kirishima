@@ -1,7 +1,7 @@
-# Copyright (C) 2021 GabiBraunRobot
-# made by @Weeb_lover on Telegram.
-# github account : https://github.com/ultroi/
-# This file is part of Maki (Telegram Bot)
+# Copyright (C) 2021 EzilaXBotV
+# made by @Kaneki_Love_Touka on Telegram.
+# github account : https://github.com/Ryu120/
+# This file is part of Touka (Telegram Bot)
 
 import os
 import logging
@@ -11,7 +11,7 @@ from telethon import Button
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from GabiBraunRobot import telethn
+from EzilaXBotV import telethn
 
 @telethn.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
 async def mentionall(event):
