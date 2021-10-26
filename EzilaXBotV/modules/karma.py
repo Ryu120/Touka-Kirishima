@@ -2,10 +2,10 @@ import asyncio
 from pyrogram import filters
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
-from AsunaRobot.utils.errors import capture_err
-from AsunaRobot.utils.permissions import adminsOnly
-from AsunaRobot.utils.adminperms import member_permissions
-from AsunaRobot.bot_plugins.dbfunctions import (
+from EzilaXBotV.utils.errors import capture_err
+from EzilaXBotV.utils.permissions import adminsOnly
+from EzilaXBotV.utils.adminperms import member_permissions
+from EzilaXBotV.bot_plugins.dbfunctions import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -15,8 +15,8 @@ from AsunaRobot.bot_plugins.dbfunctions import (
     karma_on,
     update_karma,
 )
-from AsunaRobot.utils.filter_groups import karma_negative_group, karma_positive_group
-from AsunaRobot import pbot as app
+from EzilaXBotV.utils.filter_groups import karma_negative_group, karma_positive_group
+from EzilaXBotV import pbot as app
 
 
 regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|cool|good|👍)$"
