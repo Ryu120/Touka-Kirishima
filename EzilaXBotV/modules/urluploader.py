@@ -87,6 +87,6 @@ __help__ = """
 
 • /up : reply to a direct download link to upload it to telegram as files
  
-© @Kaneki_Love_Touka
+© @Ryu_God
 """
 __mod_name__ = "URL Upload"
