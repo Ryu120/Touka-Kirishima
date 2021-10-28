@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Kaneki_Love_Touka"
+            text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Ryu_God"
         ),
         InlineKeyboardButton(
             text="ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ ❓", url="http://t.me/Maki_ryu_bot?start=help"
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Kaneki](t.me/Kaneki_Love_Touka)"""
+Support them  [ʀ ʏ ᴜ](t.me/Ryu_God)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
