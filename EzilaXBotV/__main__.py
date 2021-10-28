@@ -63,9 +63,9 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 𝗛𝗲𝗹𝗹𝗼 𝘁𝗵𝗲𝗿𝗲[👩‍💼](https://telegra.ph/file/5aaab21f4405592a34305.jpg) , 𝗜'𝗺 Touka
-𝗜'𝗺 𝗮 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 ghoul 𝗪𝗶𝘁𝗵 𝗖𝗼𝗼𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ 亗 Ƙҽɳ ᴋᴀɴᴇᴋɪ
-𝗛𝗶𝘁 /help 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗺𝘆 𝗹𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ⚡
+👋 ʜᴇʟʟᴏ ᴛʜᴇʀᴇ[👩‍💼](https://telegra.ph/file/5aaab21f4405592a34305.jpg) , ɪ'ᴍ ᴛᴏᴜᴋᴀ
+ɪ'ᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʜᴏᴜʟ ᴡɪᴛʜ ᴄᴏᴏʟ ᴍᴏᴅᴜʟᴇs. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ [ʀ ʏ ᴜ](https://t.me/Ryu_God) 
+ʜɪᴛ /help ᴛᴏ ғɪɴᴅ ᴍʏ ʜᴇʟᴘғᴜʟ ᴄᴏᴍᴍᴀɴᴅs⚡
  
 """
 
