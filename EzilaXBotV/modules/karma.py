@@ -1,13 +1,13 @@
-from Nathsuki import pbot 
+from EzilaXBotV import pbot 
 import random
-from Nathsuki.function.dbfun import (
+from EzilaXBotV.function.dbfun import (
     update_karma,
     get_karma,
     get_karmas,
     int_to_alpha,
     alpha_to_int,
 )
-from Nathsuki.utils.filter_groups import karma_positive_group, karma_negative_group
+from EzilaXBotV.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
 
