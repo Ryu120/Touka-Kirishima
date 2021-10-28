@@ -75,7 +75,7 @@ buttons = [
             text=" ᴀɴɪᴍᴇ ᴄʜᴀᴛ", url="https://t.me/Otaku_zon"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Touka_kirishima_support"
+            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Toukakirishimasupport"
         ),
     ],
     [
