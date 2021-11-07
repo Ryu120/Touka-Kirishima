@@ -238,6 +238,16 @@ def start(update: Update, context: CallbackContext):
                 uptime
             ),
             parse_mode=ParseMode.HTML,
+             reply_markup=InlineKeyboardMarkup(
+                [
+                  [
+                  InlineKeyboardButton(text="🤖Sᴜᴘᴘᴏʀᴛ🤖", url="https://telegram.dog/RikkaSupport")
+                  ],
+                  [
+                  InlineKeyboardButton(text="💻Logs💻", url="https://telegram.dog/Rikkalog")
+                  ]
+                ]
+            ),
         )
 
 
