@@ -233,8 +233,8 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
-            "I'm alive, want some coffee?!\n<b>I am awake since:</b> <code>{}</code>".format(
+        update.effective_message.reply_photo(
+            NATSUKI_IMG, "I'm alive, want some coffee?\n<b>I am awake since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
