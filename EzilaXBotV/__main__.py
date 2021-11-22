@@ -63,8 +63,8 @@ from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
 from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 ʜᴇʟʟᴏ ᴛʜᴇʀᴇ[👩‍💼](https://telegra.ph/file/5aaab21f4405592a34305.jpg) , ɪ'ᴍ ᴛᴏᴜᴋᴀ
-ɪ'ᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʜᴏᴜʟ ᴡɪᴛʜ ᴄᴏᴏʟ ᴍᴏᴅᴜʟᴇs. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ [ʀ ʏ ᴜ](https://t.me/Ryu_God) 
+👋 ʜᴇʟʟᴏ ᴛʜᴇʀᴇ[👩‍💼](https://telegra.ph/file/138f42872a3a2e6c927d9.jpg) , ɪ'ᴍ ᴛᴏᴜᴋᴀ
+ɪ'ᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʜᴏᴜʟ ᴡɪᴛʜ ᴄᴏᴏʟ ᴍᴏᴅᴜʟᴇs. 𝗠𝗮𝗱𝗲 𝗯𝘆 ⚡️ [Gaurav](https://t.me/KIRIgaya_kazuTO_0930) 
 ʜɪᴛ /help ᴛᴏ ғɪɴᴅ ᴍʏ ʜᴇʟᴘғᴜʟ ᴄᴏᴍᴍᴀɴᴅs⚡
  
 """
@@ -75,29 +75,29 @@ buttons = [
             text=" ᴀɴɪᴍᴇ ᴄʜᴀᴛ", url="https://t.me/Otaku_zon"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Toukakirishimasupport"
+            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Asunasupport0930"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/Ryu_God"
+            text="ᴍʏ ʟᴏᴠᴇ", url="https://t.me/KIRIgaya_kazuTO_0930"
         ),
         InlineKeyboardButton(
-            text="ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ ❓", url="http://t.me/Maki_ryu_bot?start=help"
+            text="ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ ❓", url="http://t.me/My_love_asuna_bot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
             text="➕ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 ➕",
-            url="t.me/Maki_ryu_bot?startgroup=true",
+            url="t.me/My_love_asuna_bot?startgroup=true",
         ),
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/fb78eabf62450a10e0c53.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/138f42872a3a2e6c927d9.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [👩‍💼](https://telegra.ph/file/fb78eabf62450a10e0c53.jpg)
+*Main Commands :* [👩‍💼](https://telegra.ph/file/138f42872a3a2e6c927d9.jpg)
  /start: Starts me! You've probably already used this.
  /help: Click this, I'll let you know about myself!
  /donate: You can support my creater using this command.
@@ -820,7 +820,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@Toukakirishimasupport", "[I am Alive](https://telegra.ph/file/6881d75ef5d447f70aa8d.mp4)", parse_mode=ParseMode.MARKDOWN)        
+            dispatcher.bot.sendMessage(f"@Asunasupport0930", "[I am Alive](https://telegra.ph/file/5686cfca3f23d64ab431c.jpg)", parse_mode=ParseMode.MARKDOWN)        
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
