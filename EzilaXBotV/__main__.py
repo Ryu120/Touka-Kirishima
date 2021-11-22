@@ -75,7 +75,7 @@ buttons = [
             text=" ᴀɴɪᴍᴇ ᴄʜᴀᴛ", url="https://t.me/Otaku_zon"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/Asunasupport0930"
+            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 💬", url="https://t.me/AsunaSupportgroup0930"
         ),
     ],
     [
@@ -820,7 +820,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@Asunasupport0930", "[I am Alive](https://telegra.ph/file/5686cfca3f23d64ab431c.jpg)", parse_mode=ParseMode.MARKDOWN)        
+            dispatcher.bot.sendMessage(f"AsunaSupportgroup0930", "[I am Alive](https://telegra.ph/file/5686cfca3f23d64ab431c.jpg)", parse_mode=ParseMode.MARKDOWN)        
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
