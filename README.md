@@ -1,6 +1,6 @@
 <h1 align="center"><b>❤️ ᴛᴏᴜᴋᴀ ᴋɪʀɪsʜɪᴍᴀ❤️</b></h1>
 
-## Unmaintained. The new repo of [Touka kirishima](https://t.me/Maki_ryu_bot). 
+## Unmaintained. The new repo of [Touka kirishima](https://t.me/KomiXryu_Bot). 
 
 
 
@@ -11,7 +11,7 @@
 </p>
 
 
-<p align="center"><a href="https://t.me/Toukakirishimasupport"><img src="https://telegra.ph/file/c1bdecacf21421697684b.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Komisansupport"><img src="https://telegra.ph/file/c1bdecacf21421697684b.jpg" width="400"></a></p>
 <p align="center">
     
 
@@ -29,7 +29,7 @@ This repo was just revamped to suit an Anime-centric community. All original cre
 
 All other credits mentioned on top of scripts
 
-Should any be missing kindly let us know at [Touka](https://t.me/Toukakirishimasupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Touka](https://t.me/Komisansupport) or simply submit a pull request on the readme.
 
 ## Kirishima bot the telegram Bot Project
 The Advanced Branch (For PRO's)
@@ -38,5 +38,5 @@ The kirishima bot(advanced)
 
 
 
-❤️ THANKS FOR ALL  [Touka Kirishima](https://T.me/Maki_ryu_bot) USERS & CONTRIBUTORS 
+❤️ THANKS FOR ALL  [Touka Kirishima](https://T.me/KomiXryu_Bot) USERS & CONTRIBUTORS 
 
